@@ -1,0 +1,221 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Jason Schwerberg",
+    "label": "Site Reliability Engineering Leader",
+    "image": "",
+    "email": "jason@schwerberg.com",
+    "phone": "(702) 769-2796",
+    "url": "https://schwerberg.com",
+    "summary": "Jason is a New York native, who has been working on and leading engineering teams for ten years. He is a hands-on manager who is directly involved with architecture and implementation decisions, and volunteers with organizations where he is able to explore and keep his skills sharp. He is passionate about his community, whether that be work or play, and aims to improve the lives of everyone he interacts with through technology.",
+    "location": {
+      "address": "16017 22nd St E",
+      "postalCode": "WA 98391",
+      "city": "Lake Tapps",
+      "countryCode": "US",
+      "region": "Washington"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "JSchwerberg",
+        "url": "https://github.com/JSchwerberg"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Merit International",
+      "location": "Sunnyvale, CA",
+      "description": "Verified Identity Platform",
+      "position": "Sr. Engineering Manager, Reliability and Data",
+      "url": "https://www.merits.com",
+      "startDate": "2019-01-15",
+      "summary": "Merit is a verified identity platform, powering credentialing and licensing for multiple governmental and civilian entities.",
+      "keywords": [
+              "Organization Management",
+              "Team Management",
+              "Agile Management",
+              "Terraform",
+              "GCP",
+              "Kubernetes",
+              "Istio"
+      ],
+      "highlights": [
+              "Built and coached a global organization consisting of 10 production SREs, 3 release SREs, and 4 data engineers, supporting Merit's core verified identity platform as well as solutions built for customers through our Professional Services team, implementing processes and runbooks that improved operational reliability, and allowed us to meet service level agreements.",
+              "Oversaw Merit Engineering's compliance efforts, working with Merit's Director of Compliance and other Engineering Managers to coordinate process rollouts, as well as remediation of vulnerabilities, allowing Merit to maintain SOC 2, FERPA, and HIPAA certifications, as well as meet customer requirements.",
+              "Directed and participated in the rearchitecture of Merit's infrastructure for a platform overhaul, using a Infrastructure-as-Code philosophy to create a scalable, portable, reusable cloud infrastructure that enabled engineers to have quick access to the resources they needed, while keeping costs and lead time on infrastructure changes low."
+      ]
+    },
+    {
+      "name": "Hosho",
+      "location": "Las Vegas, NV",
+      "description": "Smart Contract Auditing and Security",
+      "position": "Director of Engineering",
+      "startDate": "2018-05-01",
+      "endDate": "2018-11-01",
+      "summary": "Hosho was a startup that was one of the first companies to offer smart contract auditing to developers on the Ethereum blockchain. Unfortunately, advances in automated auditing tools, coupled with the company's desire to position themselves as a \"human\" auditing service, led them to be slow to adopt changes, and ultimately, to the company's shutdown.",
+      "keywords": [
+              "Organization Management",
+              "Team Management",
+              "Agile Management",
+              "AWS",
+              "Python",
+              "Javascript"
+      ],
+      "highlights": [
+              "Managed a team of 12 smart contract auditors and 2 developers, responsible for auditing over 150 smart contracts varying from simple ERC20 tokens up to whole blockchains such as Vechain.",
+              "Worked closely with the product and sales organizations to streamline the intake and cadence of work coming in to the auditing team, resulting in the reduction of our audit turnaround window from 14 days to 7."
+      ]
+    },
+    {
+      "name": "Scientific Games",
+      "location": "Las Vegas, NV",
+      "description": "Lottery and Casino Gaming Manufacturer and Operator",
+      "position": "Manager, Networking",
+      "url": "https://www.merits.com",
+      "startDate": "2014-07-01",
+      "endDate": "2018-04-15",
+      "summary": "Scientific Games is a multi-national corporation with 10,000 employees, that at the time was the manufacturer and operator for popular slot machine brands such as Bally and WMS, table games under the ShuffleMaster brand, and currently focuses on state lotteries through contracts with multiple state organizations.",
+      "keywords": [
+              "Team Management",
+              "Python"
+      ],
+      "highlights": [
+              "Managed a team of 6 network engineers as well as a 12 person network operations center, responsible for providing first- and second-line support for Scientific Games' Wide Area Progressive product, triaging and supporting issues across 750 casinos in six states as well as tribal lands.",
+              "Directed and oversaw the consolidation of two wide-area progressive networks from acquired companies into a single, unified network, reducing our hardware footprint and number of provisioned telephony circuits by about 40%.",
+              "Developed the architecture and rack-and-stacked one of the company's wide-area progressive data centers as part of the wide-area progressive consolidation."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Hack Your Lives, Inc.",
+      "position": "Vice-Chair, Board of Directors",
+      "url": "https://hackyourlives.org/",
+      "startDate": "2018-08-01",
+      "summary": "501(c)3 focused on providing resources and content geared towards helping people to make improvements in their lives, whether that be professional, personal, or anything in between. They host an annual conference within the DEFCON cybersecurity conference yearly, which holds talks, workshops, socials, and parties.",
+      "keywords": [
+              "Organization Management",
+              "Team Management"
+      ],
+      "highlights": [
+              "Acting as programming lead for the DEFCON Furs show since 2020, organizing and scheduling the CFP review team, scheduling speakers and workshops, and acting as Master of Ceremonies during the show.",
+              "Participate in bi-weekly board meetings and activities, acting as a fiduciary for the organization and helping to ensure that we can continue to meet our mission."
+      ]
+    },
+    {
+      "organization": "Furality, Inc.",
+      "position": "Infrastructure Lead",
+      "url": "https://furality.org/",
+      "startDate": "2020-04-01",
+      "summary": "Furality is a 501(c)3 that runs the world's largest virtual reality and largest furry fandom convention, the Furality Online Xperience. They put on an annual show, as well as regular socials, and mini-conventions that happen over the course of fewer days. They have a robust engineering team, and develop many custom integrations with VRChat, Discord, and other platforms.",
+      "keywords": [
+              "Team Management",
+              "Agile Management",
+              "Kubernetes",
+              "AWS",
+              "Python",
+              "Terraform",
+              "CloudFoundation",
+              "Front-End Development"
+      ],
+      "highlights": [
+              "Designed and implemented Furality's streaming cloud infrastructure stack using AWS MediaLive and Cloudfront, using Cloudformation to ensure that we could tear down, modify, and spin up the stack in a repeatable manner.",
+              "Led a team of 5 volunteer infrastructure engineers, prioritizing and delegating work to the part-time, volunteer force, and leading the on-call and remediation efforts for issues encountered during the show."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Infrastructure-as-Code Development",
+      "level": "Master",
+      "keywords": [
+        "Terraform",
+        "CloudFoundation",
+        "Pulumi",
+        "Bash",
+        "Python",
+        "YAML",
+        "HCL"
+      ]
+    },
+    {
+            "name": "Cloud Architecture",
+            "level": "Master",
+            "keywords": [
+                    "Kubernetes",
+                    "GCP",
+                    "AWS",
+                    "Kafka"
+            ]
+    },
+    {
+            "name": "Team Management",
+            "level": "Master",
+            "keywords": [
+                    "Team Building",
+                    "Performance Evaluation",
+                    "Coaching",
+                    "Talent Nurturing",
+                    "Hiring"
+            ]
+    },
+    {
+            "name": "Cloud Media Services",
+            "level": "Advanced",
+            "keywords": [
+                    "CloudFront",
+                    "MediaLive",
+                    "CDN Administration"
+            ]
+    },
+    {
+            "name": "Organization Management",
+            "level": "Advanced",
+            "keywords": [
+                    "Roadmapping",
+                    "Growth Planning",
+                    "Organization-Level Agreements"
+            ]
+    },
+    {
+            "name": "Agile Management",
+            "level": "Advanced",
+            "keywords": [
+                    "Scrum",
+                    "Kanban",
+                    "Retrospectives"
+            ]
+    },
+    {
+      "name": "Backend Development",
+      "level": "Advanced",
+      "keywords": [
+        "Golang",
+        "Rust",
+        "Python"
+      ]
+    },
+    {
+      "name": "Frontend Development",
+      "level": "Intermediate",
+      "keywords": [
+        "Javascript",
+        "Typescript",
+        "React"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}
